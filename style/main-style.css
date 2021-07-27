@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  color: white;
+  font-size: 10px;
+  background: black;
+}
+
+main{
+  width: 80%;
+  margin: 0 10%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flexd-col {
+  flex-direction: column;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-30 {
+  width: 30%;
+}
