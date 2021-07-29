@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Roboto';
   color: white;
-  font-size: 10px;
+  font-size: 15px;
   background: black;
 }
 
@@ -19,6 +19,30 @@ main{
   flex-direction: column;
 }
 
+.flexd-row {
+  flex-direction: row;
+}
+
+.just-cont-spc-bet {
+  justify-content: space-between;
+}
+
+.just-cont-cent {
+  justify-content: center;
+}
+
+.alig-items-cent {
+  align-items: center;
+}
+
+.alig-s-center{
+  align-self: center;
+}
+
+.txt-center {
+  text-align: center;
+}
+
 .w-70 {
   width: 70%;
 }
@@ -26,7 +50,46 @@ main{
 .w-30 {
   width: 30%;
 }
+ 
+.vid-row {
+  width: 0;
+  margin: 10px 0;
+  height: auto;
+}
 
-.flexd-row {
-  flex-direction: row;
+.vid-row img {
+  width: 165px;
+  height: auto;
+  margin: 1px 5px;
+}
+
+.st-thumb{
+  width: 280px;
+  height: 170px;
+  position: relative;
+}
+
+.st-rank {
+  position: absolute;
+  align-self: flex-end;
+}
+
+.st-info {
+  position: absolute;
+  align-self: flex-end;
+  margin-left: 12px;
+}
+
+.rank-img {
+  width: 130px;
+  height: auto;
+}
+
+.rank-margin {
+  margin: 10px 0;
+}
+
+.rank-border {
+  border-bottom: 2px gray solid;
+  padding-bottom: 10px;
 }
