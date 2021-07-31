@@ -8,13 +8,36 @@
 </head>
 
 <body>
-  <nav id="navbar" style="height: 78px; width: 100%; border: 3px red solid; background-color: red;">
-    <div class="d-flex just-cont-spc-bet">
-      <div id="logo-menu-div">
-        <span id=" hamburguer-menu"><i class="fas fa-bars fa-2x"></i></span>
-        <span id="logo"><img src="https://goyabu.com/goyabu-logo2.png" alt=""></span>
+  <nav class="navbar">
+    <div class="d-flex just-cont-spc-bet alig-items-cent h-100 w-80 margin-sides-10">
+      <div>
+        <span class="dropdown">
+          <div class="drop-btn">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <div class="dropdown-content">
+            <a href="#">home</a>
+            <a href="#">animes</a>
+            <a href="#">favoritos</a>
+            <a href="#">histórico</a>
+            <a href="#">app</a>
+            <a href="#">mangá</a>
+            <a href="#">filmes</a>
+            <a href="#">webtoons</a>
+            <a href="#">calendarios</a>
+            <a href="#">contato</a>
+            <a href="#">dmca</a>
+            <a href="#">surpresa</a>
+          </div>
+        </span>
+        <span><img class="logo-img" src="https://goyabu.com/goyabu-logo2.png" alt=""></span>
       </div>
-      <div id="search-bar"><input type="text"><i class="fas fa-search"></i></div>
+      <div class="search-bar-container">
+        <form>
+          <input class="search-bar" type="text" placeholder="Buscar animes">
+          <button type="submit" class="search-bar-button"><i class="fas fa-search fa-1x"></i></button>
+          </form>
+        </div>
     </div>
   </nav>
 
